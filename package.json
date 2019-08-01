@@ -6,8 +6,8 @@
   "scripts": {
     "server": "node server.js",
     "dev": "concurrently --kill-others-on-fail \"npm run server\"",
-    "build": "next build",
-    "start": "next start -p $PORT",
+    "build": "next build client",
+    "start": "NODE_ENV=production node server.js",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
