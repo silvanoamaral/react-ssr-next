@@ -4,7 +4,7 @@ import Router from 'next/router'
 import NavBar from './components/navbar'
 import Seo from './components/seo'
 
-function IndexPage() {
+function IndexPage() {   
     return (
         <div>
             <Seo title="Home page" description="This is my home page"/>
