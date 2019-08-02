@@ -1,18 +1,20 @@
 import React from 'react'
 import Router from 'next/router'
 
-import NavBar from './components/navbar'
-import Seo from './components/seo'
+import Meta from '../source/components/Meta'
+import Layout from '../source/components/Layout'
 
-function IndexPage() {   
-    return (
-        <div>
-            <Seo title="Home page" description="This is my home page"/>
-            <NavBar />
-            <h1>Hello Next.js</h1>
-            <button onClick={() => Router.push('/posts')}>Go to Posts</button>
-        </div>
-    )
+import './../css/styles.scss'
+
+function IndexPage() {
+  return (
+    <div>
+      <Meta title="Home page" description="This is my home page" />
+      <Layout>
+        <h1>Hello tese</h1>
+      </Layout>
+    </div>
+  )
 }
 
-export default IndexPage;
+export default IndexPage

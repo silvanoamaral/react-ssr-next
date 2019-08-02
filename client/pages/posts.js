@@ -1,13 +1,14 @@
 import React from 'react';
+import Layout from '../source/components/Layout'
 
 function Posts() {
     return (
-        <div>
+        <Layout>
             <ul>
                 <li>My first post</li>
                 <li>My second post</li>
             </ul>
-        </div>
+        </Layout>
     )
 }
 export default Posts;
