@@ -1,5 +1,5 @@
 {
-  "name": "react-ssr-next",
+  "name": "intellibrand",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Silvano Amaral",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
