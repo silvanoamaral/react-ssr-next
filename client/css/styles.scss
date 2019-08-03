@@ -10,7 +10,7 @@
 }
 
 html {
-    background-color: #ccc;
+    background-color: #d3d3d3;
     height: 100%;
     box-sizing: border-box;
     width: 100%
@@ -44,9 +44,26 @@ strong {
     font-weight: 700
 }
 
+main {
+    overflow: hidden;
+    width: 100%;
+}
+
 .container {
     clear: both;
     width: 100%;
     max-width: 940px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+
+.btn {
+    border: 0;
+    padding: 11px 60px;
+    cursor: pointer;
+    font-size: 22.9px;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #fff;
 }

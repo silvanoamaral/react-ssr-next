@@ -10,9 +10,7 @@ const Layout = ({
     <Fragment>
       <Header />
       <main className="Layout" role="main">
-        <div className="container">
-          { children }
-        </div>
+        { children }
       </main>
       <Footer />
     </Fragment>

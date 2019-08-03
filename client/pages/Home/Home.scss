@@ -1,0 +1,126 @@
+.home {
+  section {
+    &.inteligencia {
+      &__competitiva {
+        background: #444;
+        padding: 30px 0;
+        overflow: hidden;
+
+        .btn {
+          background-color: #993366;
+        }
+      }
+    }
+
+    &.digital {
+      &__trade {
+        background-image: linear-gradient(to right, #663366, #993366);
+        padding: 30px 0;
+        overflow: hidden;
+        width: 100%;
+
+        .btn {
+          background-color: #464646;
+        }
+      }
+    }
+
+    &.banner_principal {
+      padding: 50px 0;
+      min-height: 300px;
+
+      h2 {
+        max-width: 585px;
+        font-size: 38px;
+        font-weight: bold;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: left;
+        color: #464646;
+        margin-bottom: 20px;
+        transition: font-size .35s ease;
+
+        @media(max-width: 767px) {
+          font-size: 30px;
+          line-height: 30px;
+        }
+      }
+
+      button {
+        border: 0;
+        cursor: pointer;
+        width: 255px;
+        height: 50px;
+        background-color: #fff;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        color: #464646;
+        transition: font-size .35s ease;
+        transition: width .35s ease;
+        transition: height .35s ease;
+
+        @media(max-width: 767px) {
+          font-size: 17px;
+          width: 185px;
+          height: 40px;
+        }
+      }
+    }
+
+    .text {
+      float: left;
+      width: 65%;
+      transition: width .35s ease;
+
+      h3 {
+        color: #fff;
+        font-size: 38px;
+        line-height: 2.11;
+        transition: font-size .35s ease;
+
+        @media(max-width: 767px) {
+          font-size: 30px;
+          line-height: 1.5;
+        }
+      }
+      p {
+        color: #fff;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+        transition: font-size .35s ease;
+
+        @media(max-width: 767px) {
+          font-size: 14px;
+          margin: 10px 0;
+        }
+      }
+
+      @media(max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    &.video {
+      video {
+        width: 100%;
+      }
+    }
+
+    .btn {
+      float: right;
+      position: relative;
+      top: 70px;
+      transition: top .35s ease;
+
+      @media(max-width: 767px) {
+        float: none;
+        top: 0px;
+        padding: 9px 50px;
+        font-size: 17px;
+      }
+    }
+  }
+}
