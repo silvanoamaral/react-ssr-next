@@ -19,7 +19,7 @@ const Meta = ({
       <meta property="og:site_name" content="" />
       <meta property="og:image:width" content="200" />
       <meta property="og:image:height" content="200" />
-
+      <link rel="icon" href="http://www.intellibrand.ai/wp-content/uploads/2017/04/cropped-logo-intellibrand-32x32.png" sizes="32x32" />
     </Head>
   )
 }

@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 
 import Header from '../Header'
-import NavBar from '../Navbar'
 import Footer from '../Footer'
 
 const Layout = ({
@@ -10,9 +9,10 @@ const Layout = ({
   return (
     <Fragment>
       <Header />
-      <NavBar />
       <main className="Layout" role="main">
-        { children }
+        <div className="container">
+          { children }
+        </div>
       </main>
       <Footer />
     </Fragment>

@@ -9,7 +9,7 @@ import './../css/styles.scss'
 function IndexPage() {
   return (
     <div>
-      <Meta title="Home page" description="This is my home page" />
+      <Meta title="Intellibrand - Intelligence for Brands - Intellibrand" description="This is my home page" />
       <Layout>
         <h1>Hello tese</h1>
       </Layout>

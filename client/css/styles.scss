@@ -1,7 +1,52 @@
-body {
-    background-color: #fff;
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+:after,
+:before {
+    box-sizing: inherit;
+    outline: none!important;
+}
 
-    h1 {
-        color: #000;
-    }
+html {
+    background-color: #ccc;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: auto;
+    margin: 0;
+    -webkit-overflow-scrolling: touch
+}
+
+body,button,input,p,select,textarea {
+    font-family: Lato,Helvetica Neue,Helvetica,Liberation Sans,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 23px
+}
+
+p {
+    margin: 20px 0;
+    color: #7a818e
+}
+
+a, a:hover {
+    transition: all 75ms ease-in-out;
+}
+
+strong {
+    font-weight: 700
+}
+
+.container {
+    clear: both;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
 }

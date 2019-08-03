@@ -1,0 +1,13 @@
+header {
+  display: block;
+
+  .brand {
+    color: #18191b;
+    float: left;
+    transition: width .35s ease;        
+
+    svg {
+      width: 220px;
+    }
+  }
+}
